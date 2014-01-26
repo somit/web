@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Helvetica47';
+  src: url('helvetica-neue-lt-com-47-light-condensed.eot?') format('eot'), url('helvetica-neue-lt-com-47-light-condensed.woff') format('woff'), url('helvetica-neue-lt-com-47-light-condensed.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica77';
+  src: url('helvetica-neue-lt-com-77-bold-condensed.eot?') format('eot'), url('helvetica-neue-lt-com-77-bold-condensed.woff') format('woff'), url('helvetica-neue-lt-com-77-bold-condensed.ttf') format('truetype');
+}
+
+/** TYPOGRAPHY **/
+.title-text{
+	color: #ff7700;
+	line-height: 76px;
+	font-size: 47px;
+	font-family: Helvetica77;
+}
+
+.sub-title-text{
+	color: #666666;
+	line-height: 32px;
+	font-size: 26px;
+	font-family: Helvetica47;
+}
+
+.nav-text{
+	color: #666666;
+	line-height: 18px;
+	font-size: 12px;
+	font-family: Gotham;
+}
+
+/** ICONS **/
+
+.icons {
+	background-image: url(../img/icons.png);
+	display: inline-block;
+	background-color: transparent;
+	border: 0;
+}
+
+.icon-cloud{
+	vertical-align: bottom;
+    background-position: 0 0;
+	width: 10em;
+	height: 6.2em;
+}
+
+.icon-data{
+	vertical-align: bottom;
+    background-position: -10em 0;
+	width: 10em;
+	height: 6.2em;
+}
+
+.icon-web{
+	vertical-align: bottom;
+    background-position: -20em 0;
+	width: 10em;
+	height: 6.2em;
+}
+
+.icon-mobile{
+	vertical-align: bottom;
+    background-position: -30em 0;
+	width: 10em;
+	height: 6.2em;
+}
+
+.logo{
+	background-image: url(../img/logo.png);
+	display: inline-block;
+	background-color: transparent;
+	border: 0;
+	width: 192px;
+	height: 34px;
+}
+
+/** REST **/
+.navbar-header{
+	margin-left: 7em;
+}
+.navbar-default{
+	background-color: transparent;
+	border-color: transparent;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.title-block{
+	text-align: center;
+}
+
+.jumbotron .col-md-3{
+	text-align: center;
+}
